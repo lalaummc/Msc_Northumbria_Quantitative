@@ -1,0 +1,15 @@
+Column Name,Data type,Description
+id,Nominal,Participant ID code
+X1,Continuous,Scaled education attainment index
+X2,Continuous,Scaled income
+X3,Continuous,"Self-efficacy rating (higher scores indicate greater self-efficacy, AKA the belief in one’s ability to succeed in tasks)"
+X4,Continuous,Hours of strength training per week
+X5,Categorical,"Intervention (A = treatment, B = placebo)"
+Y1,Continuous,Job performance rating (higher scores indicate better performance)
+Y2,Continuous,One-rep max for the deadlift in pounds (higher scores indicate greater strength)
+Y3,Continuous,Loneliness 1 month prior to intervention/placebo (higher scores indicate greater loneliness)
+Y4,Continuous,Loneliness at the time of intervention/placebo (higher scores indicate greater loneliness)
+Y5,Continuous,Loneliness 1 month after intervention/placebo (higher scores indicate greater loneliness)
+Y6,Continuous,Loneliness 2 months after intervention/placebo (higher scores indicate greater loneliness)
+age,Integer,Age in years of participants
+gender,Nominal,"Gender of participant, which should contain the levels “male”, “female”, and “non-binary”"
